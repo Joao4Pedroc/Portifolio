@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function LeftSidebar() {
   return (
-    <div className="lg:fixed top-0 left-0 p-6 h-screen pl-[10%]">
+    <div className="lg:fixed top-0 left-0 p-6 h-screen pl-[10%] ">
       <h1 className="text-4xl font-bold mb-4">João Pedro</h1>
       <p className="text-xl font-bold">Web Developer</p>
       {/* <p className="mt-2 text-xs text-zinc-600">
@@ -16,7 +16,7 @@ function LeftSidebar() {
 
       <div className="text-center mt-10">
         <span>My skills:</span>
-        <div className="grid grid-cols-4 rounded-md gap-2">
+        <div className="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-4 rounded-md  gap-4 ">
           <a
             href="https://getbootstrap.com/docs/3.4/javascript/"
             target="_blank"
