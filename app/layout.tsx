@@ -1,18 +1,13 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import LeftSidebar from "./_components/LeftSidebar";
 import RightContent from "./_components/RightContent";
+import { Poppins } from "@next/font/google";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const poppins = Poppins({
+  subsets: ["latin"],
+  variable: "--font-poppins",
+  weight: ["400", "500", "700"],
 });
 
 export const metadata: Metadata = {
@@ -28,9 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-zinc-900 text-zinc-200 antialiased`}
+        className={`${poppins.variable} bg-zinc-900 text-zinc-200 antialiased`}
       >
-        <div className="flex lg:flex-row flex-col h-screen lg:pl-[40%] px-[10%] py-12 ">
+        <div className="flex lg:flex-row flex-col h-screen lg:pl-[40%] px-[10%] py-12 lg:py-16 ">
           <LeftSidebar />
 
           <RightContent>{children}</RightContent>

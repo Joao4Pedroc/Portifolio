@@ -3,8 +3,8 @@ import Image from "next/image";
 function SkillsCard() {
   return (
     <div className="text-center mt-10">
-      <span>My skills:</span>
-      <div className="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-4 rounded-md  gap-4 ">
+      <span className="">My skills:</span>
+      <div className="grid grid-cols-6  lg:grid-cols-4 rounded-md pt-5 gap-4 ">
         <a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank">
           <Image
             src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg"

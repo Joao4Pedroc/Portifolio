@@ -2,9 +2,9 @@ import SkillsCard from "./SkillsCard";
 
 function LeftSidebar() {
   return (
-    <div className="lg:fixed top-0 left-0 p-6 h-screen pl-[10%] ">
+    <div className="lg:fixed top-0 left-0 p-6 h-screen pl-[10%] pt-12 lg:pt-16 ">
       <h1 className="text-4xl font-bold mb-4">João Pedro</h1>
-      <p className="text-xl font-bold">Web Developer</p>
+      <h2 className="text-xl font-bold">Web Developer</h2>
       {/* <p className="mt-2 text-xs text-zinc-600">
         I'm a passionate web developer who loves learning new technologies and
         constantly improving my skills.
