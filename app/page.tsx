@@ -1,3 +1,5 @@
+import ExperiencesCard from "./ExperiencesCard";
+
 export default function Home() {
   return (
     <div className="">
@@ -9,6 +11,9 @@ export default function Home() {
         Here, you can explore my expertise, favorite tools, and a selection of
         my best projects. To see all of my work, feel free to visit my GitHub.
       </span>
+      <div>
+        <ExperiencesCard />
+      </div>
     </div>
   );
 }
