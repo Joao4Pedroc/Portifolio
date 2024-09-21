@@ -1,6 +1,6 @@
 function ExperiencesCard() {
   return (
-    <div className="flex">
+    <div className="flex flex-col">
       <ul>
         <li className="mb-12">
           <a
@@ -35,6 +35,9 @@ function ExperiencesCard() {
           </a>
         </li>
       </ul>
+      <a href="#">
+        <span>View full résumé</span>
+      </a>
     </div>
   );
 }
