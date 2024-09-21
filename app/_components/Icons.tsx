@@ -1,5 +1,6 @@
 import { FaLinkedin } from "react-icons/fa";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 function Icons() {
   return (
@@ -16,7 +17,14 @@ function Icons() {
         target="_blank"
         className="lg:text-3xl text-2xl "
       >
-        <FaGithubSquare />
+        <FaGithub />
+      </a>
+      <a
+        href="https://instagram.com/jotape_castro4"
+        target="_blank"
+        className="lg:text-3xl text-2xl "
+      >
+        <FaInstagram />
       </a>
     </div>
   );
