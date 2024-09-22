@@ -15,20 +15,20 @@ function ExperiencesCard() {
               nemo odio voluptatibus, eos tempore. Debitis fugiat magnam eum
               eius autem obcaecati. Nihil.
             </p>
-            <ul className="flex gap-4 col-start-2 row-start-3">
-              <li className="px-3 py-2 leading-5 text-xs font-medium rounded-full text-amber-300 bg-amber-400/10">
+            <ul className="flex flex-wrap gap-4 col-start-2 row-start-3">
+              <li className="px-3 py-2 leading-5 text-xs font-medium rounded-full text-amber-300 bg-amber-400/10 ">
                 WordPress
               </li>
-              <li className="px-3 py-2 leading-5 text-xs font-medium rounded-full text-amber-300 bg-amber-400/10">
+              <li className="px-3 py-2 leading-5 text-xs font-medium rounded-full text-amber-300 bg-amber-400/10 ">
                 Javascript
               </li>
-              <li className="px-3 py-2 leading-5 text-xs font-medium rounded-full text-amber-300 bg-amber-400/10">
+              <li className="px-3 py-2 leading-5 text-xs font-medium rounded-full text-amber-300 bg-amber-400/10 ">
                 Typescript
               </li>
-              <li className="px-3 py-2 leading-5 text-xs font-medium rounded-full text-amber-300 bg-amber-400/10">
+              <li className="px-3 py-2 leading-5 text-xs font-medium rounded-full text-amber-300 bg-amber-400/10 ">
                 React
               </li>
-              <li className="px-3 py-2 leading-5 text-xs font-medium rounded-full text-amber-300 bg-amber-400/10">
+              <li className="px-3 py-2 leading-5 text-xs font-medium rounded-full text-amber-300 bg-amber-400/10 ">
                 Next.js
               </li>
             </ul>
