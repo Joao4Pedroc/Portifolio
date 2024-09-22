@@ -1,3 +1,4 @@
+import ProjectsCard from "./_components/ProjectsCard";
 import ExperiencesCard from "./ExperiencesCard";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       </span>
       <div>
         <ExperiencesCard />
+        <ProjectsCard />
       </div>
     </div>
   );
