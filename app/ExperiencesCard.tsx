@@ -5,7 +5,7 @@ function ExperiencesCard() {
         <li className="mb-12">
           <a
             href="#"
-            className="grid grid-cols-[20%_80%] gap-4 grid-row-3 mt-24 hover:bg-zinc-600 rounded-md p-4 hover:shadow-md transition-all"
+            className="grid grid-cols-[20%_80%] gap-4 grid-row-4 mt-24 hover:bg-zinc-600 rounded-md p-4 hover:shadow-md transition-all"
           >
             <header className="opacity-50 text-zinc-400">2024 - PRESENT</header>
             <span className="font-bold">Intern, FEPECS</span>
