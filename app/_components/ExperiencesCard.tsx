@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function ExperiencesCard() {
   return (
     <div className="flex flex-col">
@@ -5,10 +7,26 @@ function ExperiencesCard() {
         <li className="mb-12">
           <a
             href="#"
-            className="grid grid-cols-[20%_80%] gap-4 grid-row-4 mt-24 hover:bg-zinc-600 rounded-md p-4 hover:shadow-md transition-all"
+            className="grid grid-cols-[20%_80%] gap-8 grid-row-4 mt-24 hover:bg-zinc-600 rounded-md p-4 hover:shadow-md transition-all"
           >
-            <header className="opacity-50 text-zinc-400">2024 - PRESENT</header>
-            <span className="font-bold">Intern, FEPECS</span>
+            <Image
+              src={"/logo-FEPECS.png"}
+              width={150}
+              height={50}
+              className="rounded-lg row-span-2 place-self-center w-full bg-white "
+              alt="FEPECS Agendamento de salas"
+              loading="lazy"
+              layout="responsive"
+              objectFit="cover"
+              decoding="async"
+            />
+            <span className="font-bold">
+              Intern, FEPECS
+              <span className="opacity-50 text-zinc-400">
+                {" "}
+                (2024 - PRESENT)
+              </span>
+            </span>
             <p className="row-start-2 col-start-2 opacity-75 text-zinc-400">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
               sunt, reprehenderit illum suscipit iure corporis, unde aliquid

@@ -7,17 +7,20 @@ function ProjectsCard() {
         <li className="mb-12">
           <a
             href="#"
-            className="grid grid-cols-[20%_80%] gap-4 grid-row-4 mt-24 hover:bg-zinc-600 rounded-md p-4 hover:shadow-md transition-all"
+            className="grid grid-cols-[20%_80%] gap-8 grid-row-4 mt-24 hover:bg-zinc-600 rounded-md p-4 hover:shadow-md transition-all"
           >
             <Image
-              src={"/fepecs.jpg"}
-              width={150}
-              height={48}
-              className="rounded-md row-span-2"
+              src={"/Agendamento-de-salas.jpeg"}
+              width={200}
+              height={50}
+              className="rounded-lg row-span-2 place-self-center w-full "
               alt="FEPECS Agendamento de salas"
               loading="lazy"
+              layout="responsive"
+              objectFit="cover"
+              decoding="async"
             />
-            <span className="font-bold">Intern, FEPECS</span>
+            <span className="font-bold">Agendamento de Salas FEPECS</span>
             <p className="row-start-2 col-start-2 opacity-75 text-zinc-400">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
               sunt, reprehenderit illum suscipit iure corporis, unde aliquid
