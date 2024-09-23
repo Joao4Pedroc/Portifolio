@@ -7,13 +7,13 @@ function ProjectsCard() {
         <li className="mb-12">
           <a
             href="#"
-            className="grid grid-cols-[20%_80%] place-content-center gap-8 grid-row-4 mt-24  hover:bg-zinc-600 rounded-lg p-4 pl-12 lg:pl-16 hover:shadow-md transition-all "
+            className="group grid grid-cols-[20%_80%] place-content-center gap-8 grid-row-4 mt-24  hover:bg-zinc-600 rounded-lg p-4 pl-12 lg:pl-16 hover:shadow-lg transition-all"
           >
             <Image
               src={"/Agendamento-de-salas.jpeg"}
               width={200}
               height={50}
-              className="rounded-lg row-span-2 row-start-4 col-span-2  lg:row-span-2 lg:col-start-1 lg:row-start-1 lg:col-span-1 "
+              className="rounded-lg row-span-2 row-start-4 col-span-2  lg:row-span-2 lg:col-start-1 lg:row-start-1 lg:col-span-1 border-2  group-hover:border-2 transition-all group-hover:border-zinc-400 "
               alt="FEPECS Agendamento de salas"
               loading="lazy"
               layout="responsive"
@@ -35,6 +35,9 @@ function ProjectsCard() {
               </li>
               <li className="px-3 py-2 leading-5 text-xs font-medium rounded-full text-amber-300 bg-amber-400/10 ">
                 Next.js
+              </li>
+              <li className="px-3 py-2 leading-5 text-xs font-medium rounded-full text-amber-300 bg-amber-400/10 ">
+                Tailwind
               </li>
               <li className="px-3 py-2 leading-5 text-xs font-medium rounded-full text-amber-300 bg-amber-400/10 ">
                 Supabase

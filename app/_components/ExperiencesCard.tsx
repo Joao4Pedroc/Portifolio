@@ -7,13 +7,13 @@ function ExperiencesCard() {
         <li className="mb-12">
           <a
             href="#"
-            className="grid grid-cols-[20%_80%] place-content-center gap-8 grid-row-4 mt-24  hover:bg-zinc-600 rounded-lg p-4 pl-12 lg:pl-16 hover:shadow-md transition-all"
+            className="group grid grid-cols-[20%_80%] place-content-center gap-8 grid-row-4 mt-24  hover:bg-zinc-600 rounded-lg p-4 pl-12 lg:pl-16 hover:shadow-lg transition-all"
           >
             <Image
               src={"/logo-FEPECS.png"}
               width={150}
               height={50}
-              className="rounded-lg row-span-2 row-start-4 col-span-2  lg:row-span-2 lg:col-start-1 lg:row-start-1 lg:col-span-1 bg-white "
+              className="rounded-lg row-span-2 row-start-4 col-span-2  lg:row-span-2 lg:col-start-1 lg:row-start-1 lg:col-span-1 border-2 group-hover:border-2 transition-all group-hover:border-zinc-400 bg-white "
               alt="FEPECS Agendamento de salas"
               loading="lazy"
               layout="responsive"
