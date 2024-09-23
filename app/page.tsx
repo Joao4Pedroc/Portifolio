@@ -1,5 +1,5 @@
 import ProjectsCard from "./_components/ProjectsCard";
-import ExperiencesCard from "./ExperiencesCard";
+import ExperiencesCard from "./_components/ExperiencesCard";
 
 export default function Home() {
   return (
