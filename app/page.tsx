@@ -14,8 +14,21 @@ export default function Home() {
       </span>
       <div>
         <ExperiencesCard />
-        <ProjectsCard />
+        <ProjectsCard
+          href="#"
+          imageData={{
+            src: "/Agendamento-de-salas.jpeg",
+            alt: 'Home of my website "Agendamento de salas FEPECS"',
+          }}
+          name="Agendamento de salas FEPECS"
+          description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+              sunt, reprehenderit illum suscipit iure corporis, unde aliquid
+              nemo odio voluptatibus, eos tempore. Debitis fugiat magnam eum
+              eius autem obcaecati. Nihil."
+          tools={["Typescript", "Next.js", "Tailwind", "Supabase"]}
+        />
       </div>
     </div>
   );
 }
+// [href, src: {src.src, src.alt}, name, description, tools: [...]]
