@@ -19,10 +19,10 @@ function ExperiencesCard({
   return (
     <div className="flex flex-col">
       <ul>
-        <li className="mb-12">
+        <li className="">
           <a
             href={href}
-            className="group grid grid-cols-[20%_80%] place-content-center gap-8 grid-row-4 mt-24  hover:bg-zinc-600 rounded-lg p-4 pl-12 lg:pl-16 hover:shadow-lg transition-all"
+            className="group grid grid-cols-[20%_80%] place-content-center gap-8 grid-row-4   hover:bg-zinc-600 rounded-lg p-4 pl-12 lg:pl-16 hover:shadow-lg transition-all"
           >
             <Image
               src={imageData.src}
@@ -38,6 +38,7 @@ function ExperiencesCard({
             <span className="font-bold col-span-2 lg:col-start-2">
               {name}
               <span className="opacity-50 text-zinc-400 text-sm">
+                {" "}
                 ({duration.start} - {duration.end})
               </span>
             </span>
@@ -59,9 +60,6 @@ function ExperiencesCard({
           </a>
         </li>
       </ul>
-      <a href="#">
-        <span>View full résumé</span>
-      </a>
     </div>
   );
 }
