@@ -25,7 +25,7 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} bg-zinc-900 text-zinc-200 antialiased `}
       >
-        <div className="flex lg:flex-row flex-col h-screen lg:pl-[40%] px-[10%] py-12 lg:py-16   ">
+        <div className="flex lg:flex-row flex-col h-screen lg:pl-[40%] px-[10%] py-12 lg:py-16 container mx-auto relative  ">
           <LeftSidebar />
 
           <RightContent>{children}</RightContent>
