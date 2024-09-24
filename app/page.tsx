@@ -2,9 +2,10 @@ import ProjectsCard from "./_components/ProjectsCard";
 import ExperiencesCard from "./_components/ExperiencesCard";
 
 export default function Home() {
+  // animation gets up and shadow when hover, change the select color, create sections: experiences and projects
   return (
     <div className="lg:pb-28 pb-16">
-      <div>
+      <div className="">
         <span>
           Hello, my name is João Pedro, and I&apos;m a passionate web developer
           who loves learning new technologies and constantly improving my
