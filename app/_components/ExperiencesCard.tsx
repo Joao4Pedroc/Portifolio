@@ -15,7 +15,6 @@ function ExperiencesCard({
   description: string;
   tools: Array<string>;
 }) {
-  // imagedata, name, duration {start, end}, description, tools
   return (
     <div className="flex flex-col">
       <ul>

@@ -3,7 +3,7 @@ import ExperiencesCard from "./_components/ExperiencesCard";
 
 export default function Home() {
   return (
-    <div className="lg:pb-28 pb-16 flex flex-col">
+    <div className="lg:pb-28 pb-16">
       <div>
         <span>
           Hello, my name is João Pedro, and I&apos;m a passionate web developer
