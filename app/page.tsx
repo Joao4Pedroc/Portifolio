@@ -1,10 +1,11 @@
 import ProjectsCard from "./_components/ProjectsCard";
 import ExperiencesCard from "./_components/ExperiencesCard";
+import SkillsCard from "./_components/SkillsCard";
 
 export default function Home() {
   // animation gets up and shadow when hover, change the select color, create sections: experiences and projects
   return (
-    <div className="lg:pb-28 pb-16">
+    <div className="mb-16 scroll-mt-16 md:mb-16 lg:mb-16 lg:scroll-mt-24">
       <div className="">
         <span>
           Hello, my name is João Pedro, and I&apos;m a passionate web developer
@@ -58,6 +59,13 @@ export default function Home() {
         <a href="#">
           <span className="font-semibold">View all projects</span>
         </a>
+
+        <div className="flex justify-center flex-col gap-12">
+          <div className="text-center font-bold text-4xl lg:text-xl mt-16">
+            My skills:
+          </div>
+          <SkillsCard />
+        </div>
       </div>
     </div>
   );

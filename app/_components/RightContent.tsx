@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 function RightContent({ children }: { children: ReactNode }) {
-  return <div className="">{children}</div>;
+  return <main className="pt-24 lg:w-1/2">{children}</main>;
 }
 
 export default RightContent;
