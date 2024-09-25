@@ -44,11 +44,11 @@ function ExperiencesCard({
             <p className="row-start-3 col-start-1 col-span-2 opacity-75 text-zinc-400 lg:col-start-1">
               {description}
             </p>
-            <ul className="flex flex-wrap gap-4 col-start-1 col-span-3 row-start-2 lg:col-start-2">
+            <ul className="flex flex-wrap gap-4 col-start-1 col-span-3 row-start-2 lg:col-start-2 items-center content-center ">
               {tools.map((tool, index) => {
                 return (
                   <li
-                    className="px-3 py-2 leading-5 text-xs font-medium rounded-full text-amber-300 bg-amber-400/10 "
+                    className="px-3 py-2 leading-5 text-xs font-medium rounded-full text-amber-300 bg-amber-400/10 text-center"
                     key={`${name}-${tool}-${index}`}
                   >
                     {tool}

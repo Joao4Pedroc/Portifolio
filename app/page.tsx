@@ -31,7 +31,7 @@ export default function Home() {
           sunt, reprehenderit illum suscipit iure corporis, unde aliquid
           nemo odio voluptatibus, eos tempore. Debitis fugiat magnam eum
           eius autem obcaecati. Nihil."
-          tools={["JavaScript", "Typescript", "React", "Next.js", "WordPress"]}
+          tools={["JavaScript", "Typescript", "React", "WordPress", "Next.js"]}
         />
 
         <a href="#">
