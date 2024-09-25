@@ -21,7 +21,7 @@ function ExperiencesCard({
         <li className="">
           <a
             href={href}
-            className="group grid lg:grid-cols-[40%_60%] place-content-center gap-8 grid-row-4   hover:bg-zinc-600 rounded-lg p-4 pl-12 lg:pl-16 hover:shadow-lg transition-all"
+            className="group grid lg:grid-cols-[50%_50%] w-[110%] place-content-center gap-8 grid-row-4   hover:bg-zinc-600 rounded-lg p-4 pl-12 lg:pl-16 hover:shadow-lg transition-all"
           >
             <Image
               src={imageData.src}
@@ -41,10 +41,10 @@ function ExperiencesCard({
                 ({duration.start} - {duration.end})
               </span>
             </span>
-            <p className="row-start-2 col-start-1 col-span-2 opacity-75 text-zinc-400 lg:col-start-2">
+            <p className="row-start-3 col-start-1 col-span-2 opacity-75 text-zinc-400 lg:col-start-1">
               {description}
             </p>
-            <ul className="flex flex-wrap gap-4 col-start-1 col-span-3 row-start-3 lg:col-start-2">
+            <ul className="flex flex-wrap gap-4 col-start-1 col-span-3 row-start-2 lg:col-start-2">
               {tools.map((tool, index) => {
                 return (
                   <li

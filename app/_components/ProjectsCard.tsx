@@ -19,24 +19,24 @@ function ProjectsCard({
         <li className="">
           <a
             href={href}
-            className="group grid grid-cols-[40%_60%] place-content-center gap-8 grid-row-4   hover:bg-zinc-600 rounded-lg p-4 pl-12 lg:pl-16 hover:shadow-lg transition-all"
+            className="group grid grid-cols-[50%_50%] place-content-center gap-8 grid-row-4 w-[110%]  hover:bg-zinc-600 rounded-lg p-4 pl-12 lg:pl-16 hover:shadow-lg transition-all"
           >
             <Image
               src={imageData.src}
               alt={imageData.alt}
               width={200}
               height={50}
-              className="rounded-lg row-span-2 row-start-4 col-span-2  lg:row-span-2 lg:col-start-1 lg:row-start-1 lg:col-span-1 border-2  group-hover:border-2 transition-all group-hover:border-zinc-400 "
+              className="rounded-lg row-span-2 row-start-4 col-span-2  lg:row-span-2 lg:col-start-1 lg:row-start-1 lg:col-span-1 border-2 group-hover:border-2 transition-all group-hover:border-zinc-400"
               loading="lazy"
               layout="responsive"
               objectFit="contain"
               decoding="async"
             />
             <span className="font-bold col-span-2 lg:col-start-2">{name}</span>
-            <p className="row-start-2 col-start-1 col-span-2 opacity-75 text-zinc-400 lg:col-start-2">
+            <p className="row-start-3 col-start-1 col-span-2 opacity-75 text-zinc-400 lg:col-start-1">
               {description}
             </p>
-            <ul className="flex flex-wrap gap-4 col-start-1 col-span-3 row-start-3 lg:col-start-2">
+            <ul className="flex flex-wrap gap-4 col-start-1 col-span-3 row-start-2 lg:col-start-2">
               {tools.map((tool, index) => {
                 return (
                   <li
