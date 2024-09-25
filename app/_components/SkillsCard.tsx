@@ -3,7 +3,7 @@ import Image from "next/image";
 function SkillsCard() {
   //animations when hover icons
   return (
-    <div className="grid grid-cols-6 lg:grid-cols-6 py-4 lg:gap-4 items-center justify-items-center ">
+    <div className="grid grid-cols-6 lg:grid-cols-6 py-4 lg:gap-4 items-center justify-items-center gap-8 ">
       <a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank">
         <Image
           src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg"
