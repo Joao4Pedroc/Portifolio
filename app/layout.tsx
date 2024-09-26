@@ -13,6 +13,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Portífolio",
   description: "Portífolio do João Pedro",
+  icons: "icon-kuromi.svg",
 };
 
 export default function RootLayout({
