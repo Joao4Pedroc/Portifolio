@@ -1,4 +1,5 @@
 import Icons from "./Icons";
+import NavBar from "./NavBar";
 
 function LeftSidebar() {
   return (
@@ -9,28 +10,7 @@ function LeftSidebar() {
         <h3 className="text-xs opacity-400 text-zinc-400 mb-20">
           nana eu te amoo❤️
         </h3>
-        <nav className="lg:flex flex-col hidden">
-          <ul>
-            <li className="my-2">
-              <a href="#experiences" className="group inline-flex items-center">
-                <span className="w-12 group-hover:w-20 border-t-2 border-zinc-400 mr-2 group-hover:border-zinc-300 transition-all motion-reduce:transition-none"></span>
-                <span>Experiences</span>
-              </a>
-            </li>
-            <li className="my-2">
-              <a href="#projects" className="group inline-flex items-center">
-                <span className="w-12 group-hover:w-20 border-t-2 border-zinc-400 mr-2 group-hover:border-zinc-300 transition-all motion-reduce:transition-none"></span>
-                <span>Projects</span>
-              </a>
-            </li>
-            <li className="my-2">
-              <a href="#skills" className="group inline-flex items-center">
-                <span className="w-12 group-hover:w-20 border-t-2 border-zinc-400 mr-2 group-hover:border-zinc-300 transition-all motion-reduce:transition-none"></span>
-                <span>Skills</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <NavBar />
       </div>
 
       <div className="col-start-2 row-start-1 lg:col-start-1 lg:row-start-3 justify-self-end lg:justify-self-start">
