@@ -8,21 +8,21 @@ function Icons() {
       <a
         href="https://www.linkedin.com/in/jo%C3%A3o-pedro-de-castro-silva-40232a2a4/"
         target="_blank"
-        className="lg:text-3xl text-2xl"
+        className="lg:text-3xl text-2xl hover:text-amber-300"
       >
         <FaLinkedin />
       </a>
       <a
         href="https://github.com/Joao4Pedroc"
         target="_blank"
-        className="lg:text-3xl text-2xl "
+        className="lg:text-3xl text-2xl hover:text-amber-300"
       >
         <FaGithub />
       </a>
       <a
         href="https://instagram.com/jotape_castro4"
         target="_blank"
-        className="lg:text-3xl text-2xl "
+        className="lg:text-3xl text-2xl hover:text-amber-300 "
       >
         <FaInstagram />
       </a>

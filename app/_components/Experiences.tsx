@@ -19,7 +19,9 @@ function Experiences() {
       />
 
       <a href="#">
-        <span className="font-semibold">View full résumé</span>
+        <span className="font-semibold hover:text-amber-300">
+          View full résumé
+        </span>
       </a>
     </section>
   );

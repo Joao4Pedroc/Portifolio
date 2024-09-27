@@ -19,7 +19,7 @@ function ProjectsCard({
         <li className="">
           <a
             href={href}
-            className="group grid grid-cols-[50%_50%] place-content-center gap-8 grid-row-4 w-[110%]  hover:bg-zinc-600 rounded-lg p-4 pl-12 lg:pl-16 hover:shadow-lg transition-all"
+            className="group grid grid-cols-[50%_50%] place-content-center gap-8 grid-row-4 w-[110%]  hover:bg-zinc-600 rounded-lg p-4 pl-12 lg:pl-16 hover:shadow-lg transition-all lg:hover:w-[115%]"
           >
             <Image
               src={imageData.src}
@@ -32,7 +32,9 @@ function ProjectsCard({
               objectFit="contain"
               decoding="async"
             />
-            <span className="font-bold col-span-2 lg:col-start-2">{name}</span>
+            <span className="font-bold col-span-2 lg:col-start-2 group-hover:text-amber-300">
+              {name}
+            </span>
             <p className="row-start-3 col-start-1 col-span-2 opacity-75 text-zinc-400 lg:col-start-1">
               {description}
             </p>

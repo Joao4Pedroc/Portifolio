@@ -20,7 +20,9 @@ function Projects() {
         tools={["Typescript", "Next.js", "Tailwind", "Supabase"]}
       />
       <a href="#">
-        <span className="font-semibold">View all projects</span>
+        <span className="font-semibold hover:text-amber-300">
+          View all projects
+        </span>
       </a>
     </section>
   );
