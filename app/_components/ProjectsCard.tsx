@@ -19,7 +19,7 @@ function ProjectsCard({
         <li className="">
           <a
             href={href}
-            className="group grid grid-cols-[50%_50%] place-content-center gap-8 grid-row-4 w-[110%]  hover:bg-zinc-600 rounded-lg p-4 pl-12 lg:pl-16 hover:shadow-lg transition-all lg:hover:w-[115%]"
+            className="group grid grid-cols-[50%_50%] place-content-center gap-8 grid-row-4 w-[100%]  hover:bg-zinc-600 rounded-lg p-4 pl-12 lg:pl-16 hover:shadow-lg transition-all lg:hover:w-[115%]"
           >
             <Image
               src={imageData.src}
