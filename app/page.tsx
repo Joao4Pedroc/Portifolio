@@ -17,12 +17,9 @@ export default function Home() {
           my best projects. To see all of my work, feel free to visit my GitHub.
         </span>
       </div>
-
-      <main>
-        <Experiences />
-        <Projects />
-        <Skills />
-      </main>
+      <Experiences />
+      <Projects />
+      <Skills />
     </div>
   );
 }
