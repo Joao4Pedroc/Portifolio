@@ -20,7 +20,7 @@ function Experiences() {
 
       <a href="#">
         <span className="font-semibold hover:text-amber-300">
-          View full résumé
+          View full resume
         </span>
       </a>
     </section>
