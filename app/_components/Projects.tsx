@@ -13,10 +13,10 @@ function Projects() {
           alt: 'Home of my website "Agendamento de salas FEPECS"',
         }}
         name="Agendamento de salas FEPECS"
-        description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-          sunt, reprehenderit illum suscipit iure corporis, unde aliquid
-          nemo odio voluptatibus, eos tempore. Debitis fugiat magnam eum
-          eius autem obcaecati. Nihil."
+        description="Booking system for classrooms and
+laboratories, allowing students and teachers to make
+reservations online without needing to go directly to
+the administration, build and design by me."
         tools={["Typescript", "Next.js", "Tailwind", "Supabase"]}
       />
       <a href="#">

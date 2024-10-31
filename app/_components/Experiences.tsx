@@ -7,14 +7,15 @@ function Experiences() {
         My Experiences:
       </div>
       <ExperiencesCard
-        href="#"
+        href="https://www.fepecs.edu.br/"
         imageData={{ src: "/logo-FEPECS.png", alt: "logo FEPECS" }}
         name="Intern FEPECS"
         duration={{ start: "2024", end: "CURRENT" }}
-        description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-          sunt, reprehenderit illum suscipit iure corporis, unde aliquid
-          nemo odio voluptatibus, eos tempore. Debitis fugiat magnam eum
-          eius autem obcaecati. Nihil."
+        description="Responsible for maintaining the institutional website, Developed a booking system for classrooms and
+laboratories, allowing students and teachers to make
+reservations online without needing to go directly to
+the administration.
+"
         tools={["JavaScript", "Typescript", "React", "WordPress", "Next.js"]}
       />
 
